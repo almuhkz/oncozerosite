@@ -11,8 +11,8 @@ import { Header } from '@/components/header'
 
 export const metadata: Metadata = {
   title: {
-    default: 'CultivaAI Chatbot',
-    template: `%s - CultivaAI Chatbot`
+    default: 'OncoZero.AI Chatbot',
+    template: `%s - OncoZero.AI Chatbot`
   },
   description: 'An AI-powered chatbot.',
   themeColor: [
