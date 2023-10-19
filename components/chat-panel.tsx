@@ -60,14 +60,6 @@ export function ChatPanel({
           )}
         </div>
         <div className="space-y-4 border-t bg-background px-4 py-2 shadow-lg sm:rounded-t-xl sm:border md:py-4">
-          <div className='flex flex-col items-center mx-auto'>
-            <div className='grid xl:grid-flow-col grid-flow-row gap-2'>
-              <PredictButton />
-              <NdviButton />
-            </div>
-
-
-          </div>
           <PromptForm
             onSubmit={async value => {
               await append({

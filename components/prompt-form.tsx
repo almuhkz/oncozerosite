@@ -66,7 +66,7 @@ export function PromptForm({
               <span className="sr-only">New Chat</span>
             </button>
           </TooltipTrigger>
-          <TooltipContent>Новый чат</TooltipContent>
+          <TooltipContent>Создать новый профиль пациента</TooltipContent>
         </Tooltip>
         <Textarea
           ref={inputRef}

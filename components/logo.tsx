@@ -12,13 +12,13 @@ export default function LogoDark() {
                 <img
                     className="max-h-12 min-h-2"
                     src={logoTextDark.src}
-                    alt="CultivaAI Logo"
+                    alt="OncoZero.AI Logo"
                 />
             ) : (
                 <img
                     className="max-h-12 min-h-2"
                     src={logoText.src}
-                    alt="CultivaAI Logo"
+                    alt="OncoZero.AI Logo"
                 />
             )}
         </div>

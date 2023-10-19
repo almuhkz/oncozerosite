@@ -12,7 +12,7 @@ export function FooterText({ className, ...props }: React.ComponentProps<'p'>) {
       )}
       {...props}
     >
-      CultivaAI Nfactorial Incubator 2023
+      OncoZero.AI 2023
     </p>
   )
 }
