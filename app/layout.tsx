@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     default: 'OncoZero.AI Chatbot',
     template: `%s - OncoZero.AI Chatbot`
   },
-  description: 'An AI-powered chatbot.',
+  description: 'An AI-powered medical chatbot.',
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' }
