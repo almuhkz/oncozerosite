@@ -6,16 +6,8 @@ import { IconArrowRight } from '@/components/ui/icons'
 
 const exampleMessages = [
   {
-    heading: 'AI-поддержка для врачей',
-    message: `Как искусственный интеллект помогает врачам в точной диагностике и лечении?`
-  },
-  {
-    heading: 'Инновационные решения OncoZero.AI',
-    message: 'Какие инсайты и рекомендации предоставляет OncoZero.AI для врачей в медицинской практике? \n'
-  },
-  {
-    heading: 'Уверенная диагностика с OncoZero.AI',
-    message: `Повышение точности и уверенности врачей благодаря технологиям OncoZero.AI.\n`
+    heading: 'Главное меню',
+    message: `Главное меню`
   }
 ]
 
@@ -30,7 +22,7 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
           OncoZeroAI: компаньон на базе искусственного интеллекта для помощи врачам.
         </p>
         <p className="leading-normal text-muted-foreground">
-          Начните с любого вопроса или же прикрепите анализы пациента.
+          Начните с нажатия на кнопку "Главное меню", после нажмите клавишу "Enter"
         </p>
         <div className="mt-4 flex flex-col items-start space-y-2">
           {exampleMessages.map((message, index) => (

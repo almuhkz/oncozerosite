@@ -11,7 +11,7 @@ export default function LogoDark() {
             {!theme ? null : theme === 'dark' ? (
                 <img
                     className="max-h-12 min-h-2"
-                    src={logoTextDark.src}
+                    src={logoText.src}
                     alt="OncoZero.AI Logo"
                 />
             ) : (

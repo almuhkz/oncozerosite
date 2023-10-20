@@ -88,10 +88,10 @@ export function PromptForm({
                 disabled={isLoading || input === ''}
               >
                 <IconArrowElbow />
-                <span className="sr-only">Send message</span>
+                <span className="sr-only">Отправить вопрос</span>
               </Button>
             </TooltipTrigger>
-            <TooltipContent>Send message</TooltipContent>
+            <TooltipContent>Отправить вопрос</TooltipContent>
           </Tooltip>
         </div>
       </div>
